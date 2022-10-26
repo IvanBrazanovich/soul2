@@ -1,10 +1,15 @@
 import React, { useContext, useEffect, useState } from "react";
 import nosotrosDatabase from "../assets/db.json";
-import imgPersona1 from "../assets/img/persona-1.jpg";
-import imgPersona2 from "../assets/img/persona-2.jpg";
-import imgPersona3 from "../assets/img/persona-3.jpg";
-import imgPersona4 from "../assets/img/persona-4.jpg";
-import imgPersona5 from "../assets/img/persona-5.jpg";
+import imgGallery1 from "../assets/img/persona-1.jpg";
+import imgGallery2 from "../assets/img/persona-2.jpg";
+import imgGallery3 from "../assets/img/persona-3.jpg";
+import imgGallery4 from "../assets/img/persona-4.jpg";
+import imgGallery5 from "../assets/img/persona-5.jpg";
+import imgGallery6 from "../assets/img/gallery1.jpeg";
+import imgGallery7 from "../assets/img/gallery2.jpeg";
+import imgGallery8 from "../assets/img/gallery3.jpeg";
+import imgGallery9 from "../assets/img/gallery4.jpeg";
+// import imgGallery10 from "../assets/img/gallery5.jpeg";
 import SoulContext from "../context/SoulProvider";
 
 const Nosotros = () => {
@@ -13,19 +18,25 @@ const Nosotros = () => {
   const ARR = Array.from(new Array(12), (valor, index) => index);
 
   const diccionario = {
-    persona1: imgPersona1,
-    persona2: imgPersona2,
-    persona3: imgPersona3,
-    persona4: imgPersona4,
-    persona5: imgPersona5,
-    persona6: imgPersona1,
+    persona1: imgGallery1,
+    persona2: imgGallery2,
+    persona3: imgGallery3,
+    persona4: imgGallery4,
+    persona5: imgGallery5,
+    persona6: imgGallery6,
+    persona7: imgGallery7,
+    persona8: imgGallery8,
+    persona9: imgGallery9,
+    persona10: imgGallery1,
+    persona11: imgGallery2,
+    persona12: imgGallery3,
   };
 
   return (
     <section
       id="nosotros"
       ref={refHistoria}
-      className="nosotros md:w-11/12 mx-auto mt-[5rem]"
+      className="nosotros md:w-11/12 mx-auto mt-[5rem] px-2"
     >
       <h3 className="text-center text-6xl mb-10 text-gray-600 uppercase font-bold">
         Nosotros
@@ -47,13 +58,11 @@ const Nosotros = () => {
 
         <div className=" md:w-1/2 items-center gallery grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
           {ARR?.map((item, index) => {
-            const numero = index + 1 < 7 ? index + 1 : index - 5;
-
             return (
               <img
                 className="rounded-md"
                 key={index}
-                src={diccionario[`persona${numero}`]}
+                src={diccionario[`persona${index + 1}`]}
                 alt=""
               />
             );

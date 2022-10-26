@@ -53,12 +53,12 @@ const Producto = ({ productoActive }) => {
       <p className="w-5/6 mx-auto mt-1 mb-6 text-xl">
         {productoActive?.description}
       </p>
-      <div className="items justify-center flex mt-5">
+      <div className="items justify-center flex mt-5 flex-col md:flex-row">
         {diccionario[`${productoActive?.nombre.toLowerCase()}`]?.map(
           (item, index) => {
             return (
               <div className="item flex flex-col justify-between " key={index}>
-                <div className="sm:w-10/12 lg:max-w-[20rem] mx-auto">
+                <div className="sm:w-10/12 min-w-[15rem] max-w-[25rem] mx-auto">
                   <img src={item} className="w-full h-full" alt="" />
                 </div>
                 <p className="text-3xl mt-4 text-center font-bold ">

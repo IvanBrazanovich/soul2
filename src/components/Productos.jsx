@@ -29,12 +29,12 @@ const Productos = ({ handleScroll }) => {
         Productos
       </h3>
 
-      <div className="listado mt-12 ">
-        <ul className=" md:w-5/6 lg:w-4/6  mx-auto tabs flex  sm:flex-row justify-between ">
+      <div className="listado mt-12 px-2  ">
+        <ul className=" md:w-5/6 lg:w-4/6  mx-auto tabs flex flex-wrap justify-around	gap-2   ">
           {productos.map((producto) => {
             return (
               <li
-                className="uppercase bg-emerald-600 text-white rounded-md font-bold sm:py-2 sm:px-4   md:px-3"
+                className="uppercase bg-emerald-600 text-white rounded-md font-bold  p-1 sm:py-2 sm:px-4   md:px-3"
                 key={producto.id}
                 data-nombre={`${producto.nombre}`}
                 onClick={() => changeProductoActive(producto.id)}

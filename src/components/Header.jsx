@@ -15,18 +15,22 @@ const Header = () => {
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white   ">
           Las mejores fragancias <br /> para tus ambientes
         </h2>
-        <p className="my-5 text-white  text-xl sm:text-xl md:text-2xl  font-semibold">
-          Aromatizantes de
-          <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3 ">
-            ambientes
-          </span>
-          <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3">
-            autos
-          </span>
-          <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3">
-            otros
-          </span>
-        </p>
+        <div className="wrapper flex flex-col my-5 ">
+          <p className="my-5 text-white  text-xl sm:text-xl md:text-2xl  font-semibold">
+            Aromatizantes de
+          </p>
+          <div className="wrapper">
+            <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3 ">
+              ambientes
+            </span>
+            <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3">
+              autos
+            </span>
+            <span className="inline-block py-1 bg-emerald-600 text-white rounded-md mx-2 px-3">
+              otros
+            </span>
+          </div>
+        </div>
 
         <p className=" text-xl sm:text-xl md:text-2xl   font-semibold text-slate-200">
           Lo más importante es tener el coraje <br /> de hacer lo que dice tu
