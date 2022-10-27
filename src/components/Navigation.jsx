@@ -43,6 +43,7 @@ const Navigation = () => {
             smooth={true}
             offset={0}
             duration={500}
+            href="productos"
           >
             Productos{" "}
           </Link>
@@ -57,6 +58,7 @@ const Navigation = () => {
             smooth={true}
             offset={0}
             duration={500}
+            href="nosotros"
           >
             Historia{" "}
           </Link>
@@ -70,6 +72,7 @@ const Navigation = () => {
             smooth={true}
             offset={0}
             duration={500}
+            href="vender"
           >
             Quiero vender
           </Link>

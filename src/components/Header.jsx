@@ -40,9 +40,16 @@ const Header = () => {
         <div className="sociales  text-xl sm:text-xl md:text-2xl  text-slate-200 my-5">
           <p>Visita nuestras redes sociales</p>
           <div className="flex gap-4 my-5 justify-center md:justify-start text-emerald-600">
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
           </div>
         </div>
       </div>

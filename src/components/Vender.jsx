@@ -42,9 +42,16 @@ const Vender = () => {
             </h3>
 
             <div className="flex items-center gap-3 text-3xl text-emerald-300">
-              <ion-icon name="logo-facebook"></ion-icon>
-              <ion-icon name="logo-twitter"></ion-icon>
-              <ion-icon name="logo-instagram"></ion-icon>
+              <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+
+              <a href="https://instagram.com/soulproductosaromaticos?igshid=YmMyMTA2M2Y=">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
             </div>
           </div>
         </div>
