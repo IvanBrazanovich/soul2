@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import imgVendedor from "../assets/img/vendedor.jpg";
+import imgVendedor from "../assets/img/vendedor.webp";
 import SoulContext from "../context/SoulProvider";
 
 const Vender = () => {

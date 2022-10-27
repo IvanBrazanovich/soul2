@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from "react";
 import "../css/header.css";
-import logoImg from "../assets/img/logo-soul.png";
+import logoImg from "../assets/img/logo_soul.webp";
 import SoulContext from "../context/SoulProvider";
 import { Link } from "react-scroll";
 

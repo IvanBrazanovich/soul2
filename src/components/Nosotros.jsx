@@ -1,15 +1,17 @@
 import React, { useContext, useEffect, useState } from "react";
 import nosotrosDatabase from "../assets/db.json";
-import imgGallery1 from "../assets/img/persona-1.jpg";
-import imgGallery2 from "../assets/img/persona-2.jpg";
-import imgGallery3 from "../assets/img/persona-3.jpg";
-import imgGallery4 from "../assets/img/persona-4.jpg";
-import imgGallery5 from "../assets/img/persona-5.jpg";
-import imgGallery6 from "../assets/img/gallery1.jpeg";
-import imgGallery7 from "../assets/img/gallery2.jpeg";
-import imgGallery8 from "../assets/img/gallery3.jpeg";
-import imgGallery9 from "../assets/img/gallery4.jpeg";
-// import imgGallery10 from "../assets/img/gallery5.jpeg";
+import imgGallery1 from "../assets/img/gallery1.webp";
+import imgGallery2 from "../assets/img/gallery2.webp";
+import imgGallery3 from "../assets/img/gallery3.webp";
+import imgGallery4 from "../assets/img/gallery4.webp";
+import imgGallery5 from "../assets/img/gallery5.webp";
+import imgGallery6 from "../assets/img/gallery6.webp";
+import imgGallery7 from "../assets/img/gallery7.webp";
+import imgGallery8 from "../assets/img/gallery8.webp";
+import imgGallery9 from "../assets/img/gallery9.webp";
+import imgGallery10 from "../assets/img/gallery10.webp";
+import imgGallery11 from "../assets/img/gallery11.webp";
+import imgGallery12 from "../assets/img/gallery12.webp";
 import SoulContext from "../context/SoulProvider";
 
 const Nosotros = () => {
@@ -27,9 +29,9 @@ const Nosotros = () => {
     persona7: imgGallery7,
     persona8: imgGallery8,
     persona9: imgGallery9,
-    persona10: imgGallery1,
-    persona11: imgGallery2,
-    persona12: imgGallery3,
+    persona10: imgGallery10,
+    persona11: imgGallery11,
+    persona12: imgGallery12,
   };
 
   return (
@@ -38,7 +40,7 @@ const Nosotros = () => {
       ref={refHistoria}
       className="nosotros md:w-11/12 mx-auto mt-[5rem] px-2"
     >
-      <h3 className="text-center text-6xl mb-10 text-gray-600 uppercase font-bold">
+      <h3 className="text-center text-4xl  md:text-6xl mb-10 text-gray-600 uppercase font-bold">
         Nosotros
       </h3>
 

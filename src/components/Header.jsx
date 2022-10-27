@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/header.css";
-import img from "../assets/img/todos3.jpeg";
-import Navigation from "./Navigation";
+import img from "../assets/img/hero.webp";
 
 const Header = () => {
   return (
