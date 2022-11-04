@@ -28,13 +28,6 @@ const Vender = () => {
           <h3 className="font-bold text-emerald-300 uppercase text-3xl my-4">
             Si quieres ser vendedor
           </h3>
-          <p className="text-white text-xl font-semibold w-3/4 mx-auto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatibus labore nemo nobis deleniti voluptate tempore debitis at
-            enim natus eveniet?. ipsum dolor sit, amet consectetur adipisicing
-            elit. Voluptatibus labore nemo nobis deleniti voluptate tempore
-            debitis at enim natus eveniet?
-          </p>
 
           <div className="info-contact flex flex-col md:flex-row w-3/4 mx-auto items-center justify-center mt-7 gap-6">
             <h3 className="text-2xl font-bold text-white">
