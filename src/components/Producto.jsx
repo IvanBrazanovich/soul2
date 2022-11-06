@@ -12,6 +12,7 @@ import imagePrimavera1 from "../assets/img/imgPrimavera1.webp";
 import imagePrimavera2 from "../assets/img/imgPrimavera2.webp";
 import imagePrimavera3 from "../assets/img/imgPrimavera3.webp";
 import imageChicle1 from "../assets/img/imgChicle1.webp";
+import imageChicle2 from "../assets/img/imgChicle2.webp";
 import imageChicle3 from "../assets/img/imgChicle3.webp";
 
 const Producto = ({ productoActive }) => {
@@ -27,7 +28,7 @@ const Producto = ({ productoActive }) => {
     verano: [imageVerano1, imageVerano2, imageVerano3],
     otono: [imageOtono1, imageOtono2, imageOtono3],
     primavera: [imagePrimavera1, imagePrimavera2, imagePrimavera3],
-    chicle: [imageChicle1, imagePrimavera2, imageChicle3],
+    chicle: [imageChicle1, imageChicle2, imageChicle3],
   };
 
   const chooseString = (index) => {
@@ -49,7 +50,7 @@ const Producto = ({ productoActive }) => {
     return string;
   };
   return (
-    <article className="algo">
+    <article>
       <h2 className="text-center font-extrabold text-4xl text-gray-500 ">
         {productoActive?.nombre === "Otono"
           ? "Otoño"
@@ -66,7 +67,7 @@ const Producto = ({ productoActive }) => {
           (item, index) => {
             return (
               <div className="item flex flex-col justify-between " key={index}>
-                <div className="sm:w-10/12 min-w-[13rem] max-w-[25rem] mx-auto">
+                <div className="sm:w-10/12 min-w-[13rem] max-w-[25rem] mx-auto ">
                   <img src={item} className="w-full h-full" alt="" />
                 </div>
                 <p className="text-3xl mt-4 text-center font-bold ">
